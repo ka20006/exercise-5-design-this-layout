@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css Exercise 5 - Design This Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+
+            background-color: pink;
+            
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 30px;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        .container{
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: green;
+            height: 500px;
+            width: 98%;
+            border: 3px solid black;
+            display: flex;
+        }
+        .box1{
+            background-color: plum;
+            height: 87%;
+            width: 40%;
+            margin-left: 55px;
+            margin-top: 30px;
+        }
+              .box2{
+            background-color: rgb(187, 187, 247);
+            height: 87%;
+            width: 40%;
+            margin-left: 55px;
+            margin-top: 30px;
+        }
+        .sigma{
+            border: 1px solid black;
+            height: 100px;
+            width: 90%;
+            margin-left:    37px;
+            margin-right: 4px;
+            margin-top: 10px;
+            padding-right: 10px;
+            background-color: pink;
+            border-radius: 137px;
+        }
+        .sigma h2{
+            text-align: center;
+            margin-top: 38px;
+
+        }
+        .circle{
+            width: 50px;
+            height: 50px;
+            margin-left: 25px;
+            position: fixed;
+            top: 564px;
+            padding: 10px;
+            margin-bottom: 20px;
+            right: 0;
+
+            border-radius: 50%;
+            background-color: rgb(240, 187, 240);
+        }
+        footer{
+            text-align: center;
+            background-color: red;
+            margin-top: 122px;
+            padding: 10px;
+            height: 100px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html">  Home</a></li>
+            <li><a href="perfume.html">Perfume</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li> 
+            <li><a href="login.html">Login</a></li> 
+            
+        </ul>
+    </div>
+    <div class="container">
+          <div class="box1"></div>
+          <div class="box2"></div>
+    </div>
+    <div class="circle">
+
+    </div>
+    <div class="sigma">
+           <h2>welcome to sigma web development </h2>
+    </div>
+    <footer>
+     copy righ 2019 sigma web development
+    </footer>
+</body>
+</html>
